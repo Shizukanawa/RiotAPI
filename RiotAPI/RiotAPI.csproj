@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>Shizukanawa.RiotAPI</RootNamespace>
+    <AssemblyName>Shizukanawa.RiotAPI</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>In development library for C# for the League of Legends API
+
+AMATUERELY MADE</Description>
+    <Copyright>2018 Trung Nhan Tran</Copyright>
+    <PackageId>Shizukanawa.RiotAPI</PackageId>
+    <Authors>Shizukanawa</Authors>
+    <Product>Shizukanawa.RiotAPI</Product>
+    <Version>1.0.4</Version>
+    <AssemblyVersion>1.0.4.0</AssemblyVersion>
+  </PropertyGroup>
+
+</Project>
