@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace Shizukanawa.RiotAPI
 {
@@ -42,69 +43,29 @@ namespace Shizukanawa.RiotAPI
 
         public static string GetRegion(string region)
         {
-            if (region == "na")
+            var regions = new Dictionary<string, string>
             {
-                region = naEndpoint;
-                return region;
-            }
-            else if (region == "euw")
+                { "na", naEndpoint },
+                { "euw", euwEndpoint },
+                { "eune", euneEndpoint },
+                { "br", brEndpoint },
+                { "kr", krEndpoint },
+                { "lan", la1Endpoint },
+                { "las", la2Endpoint },
+                { "tr", trEndpoint },
+                { "oce", ocEndpoint },
+                { "jp", jpEndpoint },
+                { "ru", ruEndpoint },
+                { "pbe", pbeEndpoint }
+            };
+
+            if (regions.ContainsKey(region))
             {
-                region = euwEndpoint;
-                return region;
-            }
-            else if (region == "eune")
-            {
-                region = euneEndpoint;
-                return region;
-            }
-            else if (region == "br")
-            {
-                region = brEndpoint;
-                return region;
-            }
-            else if (region == "kr")
-            {
-                region = krEndpoint;
-                return region;
-            }
-            else if (region == "lan")
-            {
-                region = la1Endpoint;
-                return region;
-            }
-            else if (region == "las")
-            {
-                region = la2Endpoint;
-                return region;
-            }
-            else if (region == "tr")
-            {
-                region = trEndpoint;
-                return region;
-            }
-            else if (region == "oce")
-            {
-                region = ocEndpoint;
-                return region;
-            }
-            else if (region == "jp")
-            {
-                region = jpEndpoint;
-                return region;
-            }
-            else if (region == "ru")
-            {
-                region = ruEndpoint;
-                return region;
-            }
-            else if (region == "pbe")
-            {
-                region = pbeEndpoint;
-                return region;
+                return regions[region];
             }
             else
             {
-                return "Invalid Region";
+                return "invalidregion";
             }
         }
 

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Shizukanawa.RiotAPI</id>
+    <version>1.0.6</version>
+    <authors>Shizukanawa</authors>
+    <owners>Shizukanawa</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>In development library for C# for the League of Legends API
+
+AMATUERELY MADE</description>
+    <copyright>2018 Trung Nhan Tran</copyright>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Trung\Repos\RiotAPI\RiotAPI\bin\Release\netcoreapp2.0\Shizukanawa.RiotAPI.dll" target="lib\netcoreapp2.0\Shizukanawa.RiotAPI.dll" />
+  </files>
+</package>
