@@ -12,8 +12,8 @@ AMATUERELY MADE</Description>
     <PackageId>Shizukanawa.RiotAPI</PackageId>
     <Authors>Shizukanawa</Authors>
     <Product>Shizukanawa.RiotAPI</Product>
-    <Version>1.0.4</Version>
-    <AssemblyVersion>1.0.4.0</AssemblyVersion>
+    <Version>1.0.6</Version>
+    <AssemblyVersion>1.0.6.0</AssemblyVersion>
   </PropertyGroup>
 
 </Project>

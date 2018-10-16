@@ -15,6 +15,6 @@ AMATUERELY MADE</description>
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\Trung\source\repos\RiotAPILib\RiotAPI\bin\Release\netcoreapp2.0\Shizukanawa.RiotAPI.dll" target="lib\netcoreapp2.0\Shizukanawa.RiotAPI.dll" />
+    <file src="C:\Users\Trung\Repos\RiotAPI\RiotAPI\bin\Release\netcoreapp2.0\Shizukanawa.RiotAPI.dll" target="lib\netcoreapp2.0\Shizukanawa.RiotAPI.dll" />
   </files>
 </package>

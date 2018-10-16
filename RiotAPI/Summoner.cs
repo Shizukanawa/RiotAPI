@@ -18,82 +18,88 @@ namespace Shizukanawa.RiotAPI
         const string ocEndpoint = "oc1..api.riotgames.com";
         const string jpEndpoint = "jp1.api.riotgames.com";
         const string ruEndpoint = "ru.api.riotgames.com";
+        const string pbeEndpoint = "pbe1.api.riotgames.com";
 
         public static async Task<string> GetSummonerAsync(Uri url)
         {
             HttpResponseMessage response = await client.GetAsync(url);
             string jsonData;
             if (response.IsSuccessStatusCode) return jsonData = await Task.Run(() => response.Content.ReadAsStringAsync());
-            if ((int)response.StatusCode == (int)HttpStatusCodes.BadRequest) return "badrequest".ToLower();
-            if ((int)response.StatusCode == (int)HttpStatusCodes.Unauthorized) return "unauthorized".ToLower();
-            if ((int)response.StatusCode == (int)HttpStatusCodes.Forbidden) return "forbidden".ToLower();
-            if ((int)response.StatusCode == (int)HttpStatusCodes.DataNotFound) return "datanotfound".ToLower();
-            if ((int)response.StatusCode == (int)HttpStatusCodes.MethodNotAllowed) return "methodnotallowed".ToLower();
-            if ((int)response.StatusCode == (int)HttpStatusCodes.UnsupportedMediaType) return "unsupportedmediatype".ToLower();
-            if ((int)response.StatusCode == (int)HttpStatusCodes.PlayerExistNoMatch) return "playerexistnomatch".ToLower();
-            if ((int)response.StatusCode == (int)HttpStatusCodes.RateLimitExceeded) return "ratelimitexceeded".ToLower();
-            if ((int)response.StatusCode == (int)HttpStatusCodes.InternalServerError) return "internalservererror".ToLower();
-            if ((int)response.StatusCode == (int)HttpStatusCodes.BadGateway) return "badgateway".ToLower();
-            if ((int)response.StatusCode == (int)HttpStatusCodes.ServiceUnavailable) return "serviceunavailable".ToLower();
-            if ((int)response.StatusCode == (int)HttpStatusCodes.GatewayTimeout) return "gatewaytimeout".ToLower();
+            if ((int)response.StatusCode == (int)HttpStatusCodes.BadRequest) return "badrequest";
+            if ((int)response.StatusCode == (int)HttpStatusCodes.Unauthorized) return "unauthorized";
+            if ((int)response.StatusCode == (int)HttpStatusCodes.Forbidden) return "forbidden";
+            if ((int)response.StatusCode == (int)HttpStatusCodes.DataNotFound) return "datanotfound";
+            if ((int)response.StatusCode == (int)HttpStatusCodes.MethodNotAllowed) return "methodnotallowed";
+            if ((int)response.StatusCode == (int)HttpStatusCodes.UnsupportedMediaType) return "unsupportedmediatype";
+            if ((int)response.StatusCode == (int)HttpStatusCodes.PlayerExistNoMatch) return "playerexistnomatch";
+            if ((int)response.StatusCode == (int)HttpStatusCodes.RateLimitExceeded) return "ratelimitexceeded";
+            if ((int)response.StatusCode == (int)HttpStatusCodes.InternalServerError) return "internalservererror";
+            if ((int)response.StatusCode == (int)HttpStatusCodes.BadGateway) return "badgateway";
+            if ((int)response.StatusCode == (int)HttpStatusCodes.ServiceUnavailable) return "serviceunavailable";
+            if ((int)response.StatusCode == (int)HttpStatusCodes.GatewayTimeout) return "gatewaytimeout";
             return "Unknown Error";
         }
 
         public static string GetRegion(string region)
         {
-            if (region == "na".ToLower())
+            if (region == "na")
             {
                 region = naEndpoint;
                 return region;
             }
-            else if (region == "euw".ToLower())
+            else if (region == "euw")
             {
                 region = euwEndpoint;
                 return region;
             }
-            else if (region == "eune".ToLower())
+            else if (region == "eune")
             {
                 region = euneEndpoint;
                 return region;
             }
-            else if (region == "br".ToLower())
+            else if (region == "br")
             {
                 region = brEndpoint;
                 return region;
             }
-            else if (region == "kr".ToLower())
+            else if (region == "kr")
             {
                 region = krEndpoint;
                 return region;
             }
-            else if (region == "la1".ToLower())
+            else if (region == "lan")
             {
                 region = la1Endpoint;
                 return region;
             }
-            else if (region == "la2".ToLower())
+            else if (region == "las")
             {
                 region = la2Endpoint;
                 return region;
             }
-            else if (region == "tr".ToLower())
+            else if (region == "tr")
             {
                 region = trEndpoint;
                 return region;
             }
-            else if (region == "oc".ToLower())
+            else if (region == "oce")
             {
                 region = ocEndpoint;
                 return region;
             }
-            else if (region == "jp".ToLower())
+            else if (region == "jp")
             {
                 region = jpEndpoint;
                 return region;
             }
-            else if (region == "ru".ToLower())
+            else if (region == "ru")
             {
                 region = ruEndpoint;
+                return region;
+            }
+            else if (region == "pbe")
+            {
+                region = pbeEndpoint;
                 return region;
             }
             else
