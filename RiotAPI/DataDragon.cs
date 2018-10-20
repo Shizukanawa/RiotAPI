@@ -8,7 +8,7 @@ namespace Shizukanawa.RiotAPI
     {
         public static HttpClient client = new HttpClient();
 
-        public static async Task<string> GetDDVersionAsync(string strRegion)
+        public async Task<string> GetDDVersionAsync(string strRegion)
         {
             string region = GetRegion(strRegion);
             if (region == "InvalidRegion".ToLower())
@@ -23,8 +23,9 @@ namespace Shizukanawa.RiotAPI
             }
         }
 
-        public static string GetRegion(string region)
+        public string GetRegion(string GiveRegion)
         {
+            string region = GiveRegion.ToLower();
             string[] regions = new string[] { "na", "euw", "eune", "br", "kr", "lan", "las", "tr", "oce", "jp", "ru", "pbe" };
             int position = Array.IndexOf(regions, region);
             if (position == -1)

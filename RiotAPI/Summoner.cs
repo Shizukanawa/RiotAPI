@@ -16,12 +16,12 @@ namespace Shizukanawa.RiotAPI
         const string la1Endpoint = "la1.api.riotgames.com";
         const string la2Endpoint = "la2.api.riotgames.com";
         const string trEndpoint = "tr1.api.riotgames.com";
-        const string ocEndpoint = "oc1..api.riotgames.com";
+        const string oceEndpoint = "oc1.api.riotgames.com";
         const string jpEndpoint = "jp1.api.riotgames.com";
         const string ruEndpoint = "ru.api.riotgames.com";
         const string pbeEndpoint = "pbe1.api.riotgames.com";
 
-        public static async Task<string> GetSummonerAsync(Uri url)
+        public async Task<string> GetSummonerAsync(Uri url)
         {
             HttpResponseMessage response = await client.GetAsync(url);
             string jsonData;
@@ -41,8 +41,9 @@ namespace Shizukanawa.RiotAPI
             return "Unknown Error";
         }
 
-        public static string GetRegion(string region)
+        public string GetRegion(string GiveRegion)
         {
+            string region = GiveRegion.ToLower();
             var regions = new Dictionary<string, string>
             {
                 { "na", naEndpoint },
@@ -53,7 +54,7 @@ namespace Shizukanawa.RiotAPI
                 { "lan", la1Endpoint },
                 { "las", la2Endpoint },
                 { "tr", trEndpoint },
-                { "oce", ocEndpoint },
+                { "oce", oceEndpoint },
                 { "jp", jpEndpoint },
                 { "ru", ruEndpoint },
                 { "pbe", pbeEndpoint }

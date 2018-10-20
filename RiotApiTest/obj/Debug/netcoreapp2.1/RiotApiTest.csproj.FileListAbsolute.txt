@@ -1,0 +1,17 @@
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\bin\Debug\netcoreapp2.1\RiotApiTest.deps.json
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\bin\Debug\netcoreapp2.1\RiotApiTest.runtimeconfig.json
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\bin\Debug\netcoreapp2.1\RiotApiTest.runtimeconfig.dev.json
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\bin\Debug\netcoreapp2.1\RiotApiTest.dll
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\bin\Debug\netcoreapp2.1\RiotApiTest.pdb
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\bin\Debug\netcoreapp2.1\Shizukanawa.RiotAPI.dll
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\bin\Debug\netcoreapp2.1\Shizukanawa.RiotAPI.pdb
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\obj\Debug\netcoreapp2.1\RiotApiTest.csprojAssemblyReference.cache
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\obj\Debug\netcoreapp2.1\RiotApiTest.csproj.CoreCompileInputs.cache
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\obj\Debug\netcoreapp2.1\RiotApiTest.AssemblyInfoInputs.cache
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\obj\Debug\netcoreapp2.1\RiotApiTest.AssemblyInfo.cs
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\obj\Debug\netcoreapp2.1\RiotApiTest.csproj.CopyComplete
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\obj\Debug\netcoreapp2.1\RiotApiTest.dll
+C:\Users\Trung\Repos\RiotAPI\RiotApiTest\obj\Debug\netcoreapp2.1\RiotApiTest.pdb

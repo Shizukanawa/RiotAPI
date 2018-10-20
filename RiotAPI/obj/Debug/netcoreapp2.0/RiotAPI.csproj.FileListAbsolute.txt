@@ -1,0 +1,9 @@
+C:\Users\Trung\Repos\RiotAPI\RiotAPI\bin\Debug\netcoreapp2.0\Shizukanawa.RiotAPI.deps.json
+C:\Users\Trung\Repos\RiotAPI\RiotAPI\bin\Debug\netcoreapp2.0\Shizukanawa.RiotAPI.dll
+C:\Users\Trung\Repos\RiotAPI\RiotAPI\bin\Debug\netcoreapp2.0\Shizukanawa.RiotAPI.pdb
+C:\Users\Trung\Repos\RiotAPI\RiotAPI\obj\Debug\netcoreapp2.0\RiotAPI.csprojAssemblyReference.cache
+C:\Users\Trung\Repos\RiotAPI\RiotAPI\obj\Debug\netcoreapp2.0\RiotAPI.csproj.CoreCompileInputs.cache
+C:\Users\Trung\Repos\RiotAPI\RiotAPI\obj\Debug\netcoreapp2.0\RiotAPI.AssemblyInfoInputs.cache
+C:\Users\Trung\Repos\RiotAPI\RiotAPI\obj\Debug\netcoreapp2.0\RiotAPI.AssemblyInfo.cs
+C:\Users\Trung\Repos\RiotAPI\RiotAPI\obj\Debug\netcoreapp2.0\Shizukanawa.RiotAPI.dll
+C:\Users\Trung\Repos\RiotAPI\RiotAPI\obj\Debug\netcoreapp2.0\Shizukanawa.RiotAPI.pdb
